@@ -1,7 +1,5 @@
 This project implements an AES-based image encryption and decryption tool using C++ and the OpenSSL cryptographic library. The application secures image files by encrypting their binary data using the Advanced Encryption Standard (AES) and restores the original image using the same secret key and initialization vector.
 
-The project demonstrates practical usage of symmetric key cryptography and secure file handling in C++ on Linux platforms.
-
 Features:
 AES-128 encryption using CBC (Cipher Block Chaining) mode
 Supports image formats such as PNG, JPG, BMP, and other binary files
@@ -18,12 +16,7 @@ Operating System: Linux (Ubuntu)
 
 Project Structure
 AES-Image-Encryption-Cpp/
-├── encrypt.cpp        Encrypts the input image file
-├── decrypt.cpp        Decrypts the encrypted file
-├── sample.png         Original image file
-├── encrypted.enc      Encrypted output file
-├── decrypted.png      Decrypted image file
-└── README.md
+AES-Image-Encryption-Cpp/ → encrypt.cpp, decrypt.cpp, sample.png, encrypted.enc, decrypted.png, README.md
 
 Prerequisites:
 Install the OpenSSL development package:
